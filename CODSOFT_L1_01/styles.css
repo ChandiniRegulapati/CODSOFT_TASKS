@@ -1,0 +1,323 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 60px; 
+}
+
+/* Header styles */
+header {
+    background-color: #17097d;
+    color: #800000; 
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff9f9; 
+    text-size-adjust: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the home section */
+#home {
+    background-color: white; 
+    padding: 150px;
+    text-align: center;
+}
+
+#home h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #800000; 
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .01em; 
+}
+
+.typing-animation {
+    animation: typing 3s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0; 
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent; 
+    }
+    50% {
+        border-color: rgb(104, 9, 9); 
+    }
+}
+
+#home p {
+    color: #000000; 
+}
+#home h1 i, #home h2 i {
+    margin-right: 10px; 
+}
+
+#home h1 i {
+    color: #000000; 
+}
+
+#home h2 i {
+    color: #295bff; 
+}
+
+#home h2{
+    color: #1426c9;
+}
+
+#home button {
+    background-color: hsl(213, 86%, 41%); 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#home button:hover {
+    background-color: #600000; 
+}
+
+/* Styles for the about section */
+#about {
+    background-color: #eee3e3; 
+    padding: 100px;
+}
+
+#about h2 {
+    text-align: center;
+    color: #800000; 
+}
+
+#about p {
+    text-align: center;
+    color: #000000;
+}
+.about-features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 200px;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.feature h3 {
+    color: #6e0c0c;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #333; 
+}
+
+/* Styles for the internship purpose section */
+#internship-purpose {
+    background-color: hwb(0 100% 0%);
+    padding: 10px;
+}
+
+#internship-purpose h2 {
+    text-align: center;
+    color: #800000; 
+}
+
+#internship-purpose p {
+    text-align: center;
+    color: #000000; 
+}
+
+/* Styles for the instructions section */
+#instructions {
+    background-color: #fff; 
+    padding: 100px;
+}
+
+#instructions h2 {
+    text-align: center;
+    color: #800000; 
+}
+
+#instructions p {
+    text-align: center;
+    color: #120101;
+    margin-bottom: 20px; 
+}
+
+/* Styles for the submissions section */
+#submissions {
+    background-color: white; 
+    padding: 10px;
+}
+
+#submissions h2 {
+    text-align: center;
+    color: #800000; 
+}
+
+#submissions p {
+    text-align: center;
+    color: #000000; 
+    margin-bottom: 20px;
+}
+
+/* Styles for the tasks section */
+#tasks {
+    padding: 100px;
+    background-color: #eee3e3; 
+    border-radius: 10px; 
+    margin-bottom: 30px; 
+}
+
+#tasks h2 {
+    text-decoration: underline;
+    color: #000000; 
+    text-align: center; 
+    margin-bottom: 40px; 
+}
+
+.task {
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 20px; 
+}
+
+.task h3 {
+    color: #800000;
+    margin-bottom: 10px; 
+}
+
+.task p {
+    color: #0b0000; 
+    margin-bottom: 15px; 
+}
+
+.task a {
+    background-color: #1b1ee2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none; 
+    border-radius: 5px; 
+    display: inline-block; 
+    transition: background-color 0.3s ease; 
+}
+
+.task a:hover {
+    background-color: #600000; 
+}
+
+/* Styles for the contact section */
+#contact {
+    padding: 50px;
+    background-color: #eee3e3; 
+    border-radius: 10px; 
+    margin-bottom: 30px; 
+}
+
+#contact h2 {
+    color: #7a0c0c; 
+    text-align: center; 
+    margin-bottom: 40px;
+}
+
+#contact p {
+    text-align: center;
+    color: #000000; 
+    margin-bottom: 20px; 
+}
+
+#contact ul {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: center; 
+}
+
+#contact ul li {
+    margin-bottom: 10px; 
+    font-size: 18px;
+}
+
+#contact ul li a {
+    color: #1426c9; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+#contact ul li a:hover {
+    color: #980f2a; 
+}
+.contact-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.contact-icons a {
+    text-decoration: none; 
+    color: #333;
+    font-size: 30px; 
+    transition: color 0.3s; 
+}
+
+.contact-icons a:hover {
+    color: #800000; 
+}
+
+
+
+
+/* Footer styles */
+footer {
+    background-color: #17097d; 
+    color: #fff; 
+    padding: 10px 20px;
+    text-align: center;
+}
