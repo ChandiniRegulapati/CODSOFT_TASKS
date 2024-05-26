@@ -1,0 +1,503 @@
+body {
+    padding-top: 56px;
+}
+.navbar {
+    background-color: #396ef3; 
+}
+
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    color: #030c14 !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important; 
+}
+.nav-link {
+    font-weight: 500;
+    margin-right: 1rem;
+}
+.nav-link i {
+    margin-right: 0.5rem;
+}
+.navbar-nav .nav-link {
+    color: white !important; 
+}
+section {
+    padding: 60px 0;
+}
+
+
+.home {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://res.cloudinary.com/dnmnqrcw3/image/upload/v1716705868/vecteezy_abstract-futuristic-floor-with-hexagons-background-3d_4290398_qeoebj.jpg') no-repeat center center/cover;
+    color: hsl(0, 100%, 99%);
+    text-align: center;
+    padding: 0 20px;
+}
+
+.home-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.home-content {
+    z-index: 1;
+}
+
+.home-image {
+    border-radius: 100%; 
+    width: 240px; 
+    height: 230px;
+    overflow: hidden; 
+}
+.image-content img {
+    border: 7px solid hsl(0, 0%, 0%); 
+    border-radius: 50%; 
+    box-shadow: 0 0 15px #ba0b94f3; 
+}
+
+.home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid #fffafa;
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+}
+.home h2{
+    color: #ffffff;
+}
+
+.home p {
+    text-align: center;
+    color: #fff5f5;
+    font-style: normal;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+    animation: fadeIn 3s;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.btn-custom {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+.btn-connect {
+    background-color: #28a745 !important; 
+}
+
+.btn-connect:hover {
+    background-color: #218838 !important; 
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: hsl(240, 100%, 99%); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.about {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+    background-image: url('https://res.cloudinary.com/dnmnqrcw3/image/upload/v1716210168/professional-background-gpyiwar9suq43xgr_skuy3b.jpg');
+}
+
+.about-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-image {
+    margin-right: 40px; 
+}
+
+.about-img {
+    width: 260px; 
+    height: 260px;
+    border-radius: 100%; /* Circular image */
+    border: 5px solid hsl(0, 0%, 0%); /* Blue border */
+    box-shadow: 0 0 25px rgb(35, 60, 224); /* Subtle shadow */
+}
+
+.about-details {
+    max-width: 800px;
+    text-align: left;
+}
+
+.about-box {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #000000;
+    box-shadow: 0 0 15px rgb(49, 7, 238);
+}
+
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: hsl(0, 100%, 100%);
+}
+
+.about-item {
+    margin-bottom: 40px;
+}
+
+.about-item h3 {
+    font-size: 1.8rem;
+    text-decoration: underline;
+    margin-bottom: 10px; 
+    color: hsl(242, 79%, 49%);
+}
+
+
+.about-item p {
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 0%);
+    line-height: 1.6; 
+}
+
+
+
+
+/* Styles for Skills Section */
+.skills {
+    background-image:url('https://res.cloudinary.com/dnmnqrcw3/image/upload/v1716210168/professional-background-gpyiwar9suq43xgr_skuy3b.jpg') ;
+    padding: 100px 100px; /* Add padding */
+}
+
+.skills h2 {
+    text-align: center; 
+    color: hwb(0 98% 0%); 
+    font-size: 36px; 
+    margin-bottom: 30px; 
+}
+
+.skills p {
+    text-align: center; 
+    margin-bottom: 50px; 
+    color: hsl(0, 0%, 100%); 
+    font-size: 18px; 
+}
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.skill-category {
+    width: calc(25% - 20px); 
+    margin: 0 10px 40px; 
+    padding: 20px;
+    background-color: hsl(220, 100%, 99%); 
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 4px 6px rgb(26, 60, 235); /* Add box shadow */
+    transition: transform 0.3s ease; /* Add transition */
+}
+
+.skill-category:hover {
+    transform: translateY(-10px); 
+}
+
+.skill-category h3 {
+    color: #007bff; 
+    font-size: 24px; 
+    margin-bottom: 20px; 
+}
+
+.skill-category ul {
+    padding-left: 0;
+}
+
+.skill-category li {
+    margin-bottom: 8px; 
+    color: #000000; 
+    font-size: 16px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.skill-logo {
+    margin-right: 10px; 
+}
+
+
+
+
+.projects {
+    background-image: url('https://res.cloudinary.com/dnmnqrcw3/image/upload/v1716207240/1226da8f422d416a9cef395f982d9a08_a5yxue.webp');
+    padding: 60px 0;
+}
+.projects .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: hsl(0, 100%, 99%);
+}
+.projects .section-description {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    color: hsl(0, 100%, 98%);
+}
+.project-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background: hsl(252, 100%, 99%);
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.project-image {
+    flex: 1;
+    text-align: center;
+}
+.project-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.project-info {
+    flex: 2;
+    padding: 20px;
+}
+.project-info h3 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+.project-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+
+/* Resume Section Styles */
+.resume {
+    padding: 100px 100px;
+    background: linear-gradient(45deg, #2942ff, #0a0650);
+    text-align: center;
+}
+.resume h2{
+    color: white;
+}
+
+.resume p{
+    color: white;
+}
+
+.resume .btn-resume {
+    background-color: #000000; /* Bootstrap primary color */
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resume .btn-resume:hover {
+    background-color: #0056b3; 
+    color: #fff;
+}
+
+
+/* Styles for Contact Section */
+
+.contact {
+    background-image: url('https://res.cloudinary.com/dnmnqrcw3/image/upload/v1716705868/vecteezy_abstract-futuristic-floor-with-hexagons-background-3d_4290398_qeoebj.jpg');
+    padding: 80px 0; 
+}
+
+.contact .container {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.contact .section-title {
+    text-align: center; 
+    color: #fff6f6; 
+    font-size: 36px; 
+    margin-bottom: 30px; 
+}
+
+.contact .section-description {
+    text-align: center; 
+    color: hwb(0 100% 0%); 
+    font-size: 18px;
+    margin-bottom: 50px; 
+}
+
+.contact-content {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.contact-form {
+    width: 80%;
+}
+
+.contact-form form {
+    background-color: #007bff;
+    padding: 40px; /* Padding */
+    border-radius: 10px; /* Border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px; 
+}
+
+.contact-form label {
+    color: hsl(0, 100%, 99%); /* Label color */
+    font-size: 16px; /* Label font size */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding */
+    border: 1px solid #2655d5; /* Border */
+    border-radius: 5px; /* Border radius */
+}
+
+.contact-form textarea {
+    height: 150px; /* Textarea height */
+}
+
+.contact-form button[type="submit"] {
+    background-color: #000000; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+
+.social-media {
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+.social-media h3 {
+    color: hsl(0, 100%, 99%); 
+    font-size: 24px; 
+    margin-bottom: 20px; 
+}
+
+.social-media-list {
+    list-style: none; /* Remove list style */
+    padding: 0; /* Remove padding */
+}
+
+.social-media-list li {
+    display: inline-block; /* Display inline */
+    margin-right: 10px; /* Margin right */
+}
+
+.social-media-list li:last-child {
+    margin-right: 0; 
+}
+
+.social-media-list a {
+    color: #4c28ee; 
+    font-size: 24px; 
+}
+
+.social-media-list a:hover {
+    color: hwb(213 92% 0%); 
+}
+
+/* Footer CSS */
+.footer {
+    background-color:  #007bff; 
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+.footer p {
+    margin-bottom: 0; 
+}
+
+.footer a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.footer a:hover {
+    text-decoration: underline; 
+}
+
