@@ -9,3 +9,6 @@
 
 ### Task 2 Personal Portfolio
 ![Screenshot 2024-05-26 125207](https://github.com/ChandiniRegulapati/CODSOFT_TASKS/assets/159464185/72f9e54f-75dc-4bf7-bd16-c6f15e9f46c8)
+
+### Task 3 Simple Calculator
+![Screenshot 2024-05-31 164540](https://github.com/ChandiniRegulapati/CODSOFT_TASKS/assets/159464185/edac62d6-3d14-4b58-847f-047ff47747c5)
